@@ -228,3 +228,19 @@ button {
 }
 
 /* Footer */
+
+.footer {
+    background-color: #1F2937;
+}
+
+.footer-container {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-text {
+    color: #E5E7EB;
+    font-size: 18px;
+}
