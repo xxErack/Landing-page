@@ -149,3 +149,34 @@ button {
     font-size: 16px;
     margin-top: 12px;
 }
+
+/* Quote Section */
+
+.quote {
+    background-color: #E5E7EB;
+}
+
+.quote-container {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+    line-height: 1.2;
+}
+
+.quote-sig {
+    align-self: flex-end;
+    font-size: 24px;
+    font-weight: 900;
+    color: #1F2937;
+    margin-top: 12px;
+}
