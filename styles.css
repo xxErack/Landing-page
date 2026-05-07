@@ -1,17 +1,24 @@
-/* CSS for Header */
+/* Body CSS for Entire Webpage */
+
 body {
     margin: 0;
-    display: flex;
-    flex-direction: column;
+    font-family: "Roboto", sans-serif;
 }
 
+/* CSS for Header Control */
+
 .header {
+    background-color: #1F2937;
+}
+
+.header-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 100px;
-    background-color: #1F2937;
-    padding: 0 80px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 24px;
 }
 
 .links ul {
@@ -22,14 +29,74 @@ body {
     padding: 0;
 }
 
-.logo {
-    font-family: "Roboto", sans-serif;
-    color: #F9FAF8;
-    font-size: 24px;
-}
-
 .links a {
     color: #E5E7EB;
     text-decoration: none;
     font-size: 18px;
+}
+
+.logo {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+/* CSS for Hero Section */
+
+.hero-section {
+    background-color: #1F2937;
+}
+
+.hero-section-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 500px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 24px;
+    gap: 24px;
+}
+
+.hero-text {
+    color: #E5E7EB;
+    margin-bottom: 12px;
+
+}
+
+.placeholder {
+    color: white;
+    width: 500px;
+    height: 250px;
+    background-color: #6D747D;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 18px;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+.hero-title {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+    margin-bottom: 12px;
+}
+
+button {
+    background-color: #3882F6;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 34px;
+    font-size: 18px;
+    font-weight: 700;
+    width: fit-content;
 }
