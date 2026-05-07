@@ -16,7 +16,7 @@ body {
     justify-content: space-between;
     align-items: center;
     height: 100px;
-    max-width: 1200px;
+    max-width: 800px;
     margin: 0 auto;
     padding: 0 24px;
 }
@@ -52,7 +52,7 @@ body {
     justify-content: space-between;
     align-items: center;
     height: 500px;
-    max-width: 1200px;
+    max-width: 800px;
     margin: 0 auto;
     padding: 0 24px;
     gap: 24px;
@@ -111,7 +111,7 @@ button {
     height: 500px;
     align-items: center;
     justify-content: center;
-    max-width: 1200px;
+    max-width: 800px;
     margin: 0 auto;
     padding-top: 50px;
     box-sizing: border-box;
@@ -189,7 +189,7 @@ button {
 
 .cta-container {
     display: flex;
-    max-width: 1200px;
+    max-width: 800px;
     margin: 0 auto;
     height: 400px;
     justify-content: center;
