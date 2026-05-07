@@ -180,3 +180,51 @@ button {
     color: #1F2937;
     margin-top: 12px;
 }
+
+/* CTA */
+
+.cta {
+    background-color: white;
+}
+
+.cta-container {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-box {
+    background-color: #3882F6;
+    color: white;
+    width: 900px;
+    border-radius: 8px;
+    display: flex;
+    height: 150px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.cta-title {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.cta-description {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.cta-button {
+    background-color: #3882F6;
+    color: white;
+    border: 2px solid white;
+    border-radius: 8px;
+    padding: 6px 32px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+/* Footer */
